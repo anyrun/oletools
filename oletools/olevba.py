@@ -619,7 +619,7 @@ AUTOEXEC_KEYWORDS = {
         ('Auto_Open', 'Workbook_Open', 'Workbook_Activate', 'Auto_Ope'),
         # TODO: "Auto_Ope" is temporarily here because of a bug in plugin_biff, which misses the last byte in "Auto_Open"...
     'Runs when the Excel Workbook is closed':
-        ('Auto_Close', 'Workbook_Close'),
+        ('Auto_Close', 'Workbook_Close', 'Workbook_Deactivate'),
 
     # any MS Office application:
     'Runs when the file is opened (using InkPicture ActiveX object)':
